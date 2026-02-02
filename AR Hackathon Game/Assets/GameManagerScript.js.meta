@@ -1,0 +1,142 @@
+- !<AssetImportMetadata/964263a8-14d4-4a1b-b27f-05f17e0b3ead>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c4bc95e0-8ecb-413c-b46e-a6e37f7ac433
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c4bc95e0-8ecb-413c-b46e-a6e37f7ac433
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e0a2a765-2969-4f61-998c-4b2da59a7b67
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e0a2a765-2969-4f61-998c-4b2da59a7b67>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3c9328e7-98bd-4ea3-aec6-25b6133ec5f9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    archerCollisionRadius: false
+    archerRange: false
+    archerSizeMultiplier: false
+    cardCost1: false
+    cardCost2: false
+    cardCost3: false
+    cardCost4: false
+    cardHighlight: false
+    cardSlot1: false
+    cardSlot2: false
+    cardSlot3: false
+    cardSlot4: false
+    cursorBox: false
+    enemyKingTower: false
+    enemyLeftMine: false
+    enemyRightMine: false
+    gameCamera: false
+    goldText: false
+    groundPlane: false
+    laserDuration: false
+    maxGold: false
+    meleeCollisionRadius: false
+    meleeRange: false
+    meleeSizeMultiplier: false
+    mineGoldRate: false
+    moveSpeedMultiplier: false
+    nextCardSlot: false
+    passiveGoldRate: false
+    playerKingTower: false
+    playerLeftMine: false
+    playerRightMine: false
+    showCursor: false
+    spawnPreviewGhost: false
+    speedSizeMultiplier: false
+    startingGold: false
+    tankSizeMultiplier: false
+    templateArcherEnemy: false
+    templateArcherPlayer: false
+    templateLaser: false
+    templateMeleeEnemy: false
+    templateMeleePlayer: false
+    templateSpeedEnemy: false
+    templateSpeedPlayer: false
+    templateTankEnemy: false
+    templateTankPlayer: false
+    texArcher: false
+    texMelee: false
+    texSpeed: false
+    texTank: false
+    troopContainer: false
+    troopSizeMultiplier: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerKingTower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      enemyKingTower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playerLeftMine: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playerRightMine: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      enemyLeftMine: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      enemyRightMine: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      groundPlane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      cursorBox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnPreviewGhost: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      showCursor: true
+      templateMeleePlayer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateMeleeEnemy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateArcherPlayer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateArcherEnemy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateTankPlayer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateTankEnemy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateSpeedPlayer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateSpeedEnemy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      templateLaser: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      troopContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardSlot1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardSlot2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardSlot3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardSlot4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      nextCardSlot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardCost1: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      cardCost2: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      cardCost3: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      cardCost4: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      goldText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      texMelee: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texArcher: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texTank: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      texSpeed: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      cardHighlight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      meleeRange: 1.500000
+      archerRange: !<float> 5.000000
+      meleeCollisionRadius: 0.800000
+      archerCollisionRadius: 0.600000
+      startingGold: 5
+      maxGold: 10
+      passiveGoldRate: 0.500000
+      mineGoldRate: 0.300000
+      troopSizeMultiplier: 0.500000
+      meleeSizeMultiplier: !<float> 1.000000
+      archerSizeMultiplier: !<float> 1.000000
+      tankSizeMultiplier: 1.500000
+      speedSizeMultiplier: 0.800000
+      moveSpeedMultiplier: !<float> 1.000000
+      laserDuration: 0.150000
+  ScriptTypes:
+    -
+      {}
